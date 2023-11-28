@@ -1,0 +1,52 @@
+ *{
+    padding: 0;
+    margin: 0;
+ }
+
+ .html{
+    max-width: 100%;
+    height: auto;
+    background-image: url('/static/image/back.jpg');
+    background-size: cover;
+    background-position: center;
+    
+} 
+ 
+.chance{
+    color: blue;
+    text-align: center;
+    float: left; 
+    top:25%;
+    position:absolute;
+    padding:20px;
+    height:90%;
+    width: 15%;
+    padding-top: 70px;
+    padding-left: 140px;
+}
+
+
+.nav-item{
+    color: white;
+    letter-spacing: 70%;
+    width: 150px;
+    font-size:x-large;
+}
+
+.username{
+    text-align: center;
+    padding-top: 10px;
+    top:25%;
+    position: absolute;
+    font-size: x-large;
+    height: 20px;
+
+}
+
+.navbar-brand{
+    font-size: x-large;
+}
+
+.psw {
+    border-radius: 20px;
+}

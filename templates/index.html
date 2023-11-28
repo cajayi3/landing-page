@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <title>Grade A Inc.</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../static/css/main.css">
+
+</head>
+
+<body>
+     <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 ">
+        <div class="container">
+            <a href="#" class="navbar-brand">Grade A Inc.</a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collaspe"
+                data-bs-target="#navmenu"
+            ><span class="collaspe navbar-toggler-icon"></span></button>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collaspe" data-bs-target="#navmenu"><span
+                    class="collaspe navbar-toggler-icon"></span></button>
+            <div class="collaspe navbar-collaspe" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">Register</li>
+                    <li class="nav-item">Login</li>
+                    <li class="nav-item">Pricing</li>
+                    <li class="nav-item">About</li>
+                </ul>
+            </div>
+        </div>
+    </nav> 
+    <div class="container" id="">
+        <h1 class="chance">Sign Up Here for your chance to win a new vehicle!</h1>
+    <div class="username">
+        <label for="email"><b class="email">Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+
+            <label for="psw"><b class="psw">Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+        </label>
+    </div>
+     
+   
+     {% block content %}
+    {% endblock %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
